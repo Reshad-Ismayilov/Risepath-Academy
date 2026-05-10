@@ -305,13 +305,16 @@ section {
 
 .btn-outline {
     background: transparent;
-    border: 1px solid var(--card-border);
+    border: 2px solid var(--secondary); /* Border rəngli və qalın edildi */
     color: white;
+    box-shadow: 0 0 15px rgba(6, 182, 212, 0.3); /* Daimi parıltı əlavə edildi */
+    transition: var(--transition);
 }
 
 .btn-outline:hover {
-    background: var(--card-bg);
-    border-color: var(--secondary);
+    background: var(--gradient-primary);
+    border-color: transparent;
+    box-shadow: 0 10px 25px rgba(124, 58, 237, 0.4);
 }
 
 /* Hero Section Background Icons Animation */
