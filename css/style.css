@@ -288,6 +288,8 @@ section {
     display: inline-block;
     cursor: pointer;
     border: none;
+    position: relative; /* Klikləməni təmin etmək üçün */
+    z-index: 5; /* Üst qatda olması üçün */
 }
 
 .btn-primary {
@@ -388,6 +390,11 @@ section {
     position: relative;
     overflow: hidden;
     transition: var(--transition);
+}
+
+.course-card > * {
+    position: relative;
+    z-index: 2;
 }
 
 .course-card::before {
