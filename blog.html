@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Risepath Academy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar scrolled">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-img">
+                    <img src="ccd.jpeg" alt="Risepath Academy Logo">
+                </div>
+                Risepath Academy
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link" data-i18n="home">Home</a></li>
+                <li><a href="about.html" class="nav-link" data-i18n="about">About</a></li>
+                <li><a href="courses.html" class="nav-link" data-i18n="courses">Courses</a></li>
+                <li><a href="teachers.html" class="nav-link" data-i18n="teachers">Teachers</a></li>
+                <li><a href="blog.html" class="nav-link active" data-i18n="blog">Blog</a></li>
+                <li><a href="contact.html" class="nav-link" data-i18n="contact">Contact</a></li>
+            </ul>
+
+            <div class="lang-switcher">
+                <div class="lang-custom-select">
+                    <i class="fas fa-globe"></i>
+                    <span id="selectedLangText">AZ</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="lang-dropdown">
+                    <div class="lang-option" data-lang="az">AZ</div>
+                    <div class="lang-option" data-lang="ru">RU</div>
+                    <div class="lang-option" data-lang="en">EN</div>
+                </div>
+            </div>
+
+            <div class="nav-socials">
+                <a href="https://www.instagram.com/risepath_academy?igsh=MTR0bDc3bTNtcHFucg==" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@risepath.academy?_r=1&_t=ZS-96FZZbH7ZSy" target="_blank" class="social-icon"><i class="fab fa-tiktok"></i></a>
+            </div>
+
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container reveal">
+            <h1 data-i18n="blog_title">Updates from Our Academy</h1>
+            <p data-i18n="blog_subtitle">Watch our most interesting and useful videos from social networks.</p>
+        </div>
+    </header>
+
+    <!-- Blog Content -->
+    <section class="blog-page">
+        <div class="container">
+            <div class="blog-grid">
+                <!-- Video 1 -->
+                <div class="blog-card reveal">
+                    <div class="mute-btn"><i class="fas fa-volume-mute"></i></div>
+                    <div class="video-container">
+                        <video src="v1.mp4" autoplay muted loop playsinline></video>
+                    </div>
+                    <div class="video-info">
+                        <h4>Rəşad İsmayılov</h4>
+                    </div>
+                </div>
+
+                <!-- Video 2 -->
+                <div class="blog-card reveal">
+                    <div class="mute-btn"><i class="fas fa-volume-mute"></i></div>
+                    <div class="video-container">
+                        <video src="v2.mp4" autoplay muted loop playsinline></video>
+                    </div>
+                    <div class="video-info">
+                        <h4>Günel Quliyeva</h4>
+                    </div>
+                </div>
+
+                <!-- Video 3 -->
+                <div class="blog-card reveal">
+                    <div class="mute-btn"><i class="fas fa-volume-mute"></i></div>
+                    <div class="video-container">
+                        <video src="v3.mp4" autoplay muted loop playsinline></video>
+                    </div>
+                    <div class="video-info">
+                        <h4>Nicat Ağayev</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="index.html" class="logo">
+                        <div class="logo-img">
+                            <img src="ccd.jpeg" alt="Risepath Academy Logo">
+                        </div>
+                        Risepath Academy
+                    </a>
+                    <p data-i18n="footer_desc">Modern academy providing high-quality education in IT, mental development, and academic preparation.</p>
+                    <div class="nav-socials">
+                        <a href="https://www.instagram.com/risepath_academy?igsh=MTR0bDc3bTNtcHFucg==" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@risepath.academy?_r=1&_t=ZS-96FZZbH7ZSy" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://wa.me/994604787900" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                        <a href="mailto:risepathacademy@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-title" data-i18n="quick_links">Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html" data-i18n="home">Home</a></li>
+                        <li><a href="about.html" data-i18n="about">About</a></li>
+                        <li><a href="courses.html" data-i18n="courses">Courses</a></li>
+                        <li><a href="teachers.html" data-i18n="teachers">Teachers</a></li>
+                        <li><a href="blog.html" data-i18n="blog">Blog</a></li>
+                        <li><a href="contact.html" data-i18n="contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-title" data-i18n="our_courses">Our Courses</h4>
+                    <ul>
+                        <li><a href="courses.html" data-i18n="prog_title">Programming</a></li>
+                        <li><a href="courses.html" data-i18n="mental_title">Mental Arithmetic</a></li>
+                        <li><a href="courses.html" data-i18n="state_exam_title">State Exam Prep</a></li>
+                        <li><a href="courses.html" data-i18n="master_title">Master's Degree</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-title" data-i18n="contact_info">Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +994 60 478 79 00</li>
+                        <li><i class="fas fa-envelope"></i> risepathacademy@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> <span data-i18n="baku_az">Naxçıvan, Azərbaycan</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="all_rights">&copy; 2026 Risepath Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/994604787900" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
