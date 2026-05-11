@@ -1117,8 +1117,8 @@ textarea.form-control {
         background: var(--bg-darker);
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        padding: 80px 40px;
+        justify-content: flex-start; /* Start from top */
+        padding: 100px 40px 40px; /* More top padding for socials */
         transition: 0.4s ease-in-out;
         z-index: 999;
         box-shadow: -10px 0 30px rgba(0,0,0,0.5);
@@ -1126,18 +1126,20 @@ textarea.form-control {
 
     .nav-socials {
         height: auto;
-        top: auto;
-        bottom: 50px;
+        top: 40px; /* Position at the very top of menu */
+        bottom: auto;
         background: transparent;
         box-shadow: none;
         flex-direction: row;
         gap: 20px;
-        display: none; /* Only show when menu is active */
+        display: none;
+        z-index: 1000;
     }
 
     .nav-container.mobile-active .nav-links {
         right: 0;
         display: flex;
+        padding-top: 100px; /* Space for socials */
     }
 
     .nav-container.mobile-active .nav-socials {
