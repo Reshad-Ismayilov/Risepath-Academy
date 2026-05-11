@@ -9,7 +9,6 @@ const translations = {
         contact: "Əlaqə",
         
         // Hero
-        hero_subtitle: "Risepath Academy-ə xoş gəlmisiniz",
         hero_title: "Müasir Təhsillə Gələcəyinizi Qurun",
         hero_desc: "Təcrübəli mentorlardan praktiki biliklər öyrənin və gələcək karyeranızı inamla qurun.",
         explore_courses: "Kursları kəşf et",
@@ -148,7 +147,6 @@ const translations = {
         contact: "Contact",
         
         // Hero
-        hero_subtitle: "Welcome to Risepath Academy",
         hero_title: "Shape Your Future With Modern Education",
         hero_desc: "Learn practical skills from experienced mentors and build your future career with confidence.",
         explore_courses: "Explore Courses",
@@ -287,7 +285,6 @@ const translations = {
         contact: "Контакты",
         
         // Hero
-        hero_subtitle: "Добро пожаловать в Risepath Academy",
         hero_title: "Постройте свое будущее с современным образованием",
         hero_desc: "Получайте практические навыки от опытных менторов и уверенно стройте свою будущую карьеру.",
         explore_courses: "Узнать больше",
