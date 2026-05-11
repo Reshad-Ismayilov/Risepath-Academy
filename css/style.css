@@ -30,12 +30,20 @@
     scroll-behavior: smooth;
 }
 
+html, body {
+    width: 100%;
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    position: relative;
+}
+
 body {
     background-color: var(--bg-dark);
     color: var(--text);
     font-family: var(--font-inter);
     line-height: 1.6;
-    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1103,7 +1111,7 @@ textarea.form-control {
     .nav-links, .nav-socials { 
         position: fixed;
         top: 0;
-        right: -100%;
+        right: -280px;
         width: 280px;
         height: 100vh;
         background: var(--bg-darker);
@@ -1169,6 +1177,10 @@ textarea.form-control {
         font-size: 2.5rem; 
         line-height: 1.2;
     }
+
+    .page-header h1 {
+        font-size: 2.5rem;
+    }
     
     .footer-grid { grid-template-columns: 1fr 1fr; }
 }
@@ -1207,6 +1219,7 @@ textarea.form-control {
     }
 
     .section-header h2 { font-size: 1.8rem; }
+    .page-header h1 { font-size: 2rem; }
     .footer-grid { grid-template-columns: 1fr; text-align: center; }
     .footer-title::after { left: 50%; transform: translateX(-50%); }
     .footer-links li { justify-content: center; }
