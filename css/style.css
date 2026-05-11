@@ -6,18 +6,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-    --primary: #7c3aed;
-    --primary-glow: rgba(124, 58, 237, 0.5);
-    --secondary: #06b6d4;
-    --secondary-glow: rgba(6, 182, 212, 0.5);
-    --bg-dark: #0f172a;
-    --bg-darker: #020617;
-    --card-bg: rgba(255, 255, 255, 0.05);
-    --card-border: rgba(255, 255, 255, 0.1);
-    --text: #ffffff;
-    --text-muted: #94a3b8;
-    --glass-bg: rgba(15, 23, 42, 0.7);
-    --gradient-primary: linear-gradient(135deg, #7c3aed 0%, #06b6d4 100%);
+    --primary: #8b5cf6;
+    --primary-glow: rgba(139, 92, 246, 0.4);
+    --secondary: #0ea5e9;
+    --secondary-glow: rgba(14, 165, 233, 0.4);
+    --bg-dark: #1e293b;
+    --bg-darker: #0f172a;
+    --card-bg: rgba(255, 255, 255, 0.08);
+    --card-border: rgba(255, 255, 255, 0.15);
+    --text: #f8fafc;
+    --text-muted: #cbd5e1;
+    --glass-bg: rgba(30, 41, 59, 0.75);
+    --gradient-primary: linear-gradient(135deg, #8b5cf6 0%, #0ea5e9 100%);
     --font-poppins: 'Poppins', sans-serif;
     --font-inter: 'Inter', sans-serif;
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
